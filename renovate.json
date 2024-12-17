@@ -4,7 +4,17 @@
     "dockerfile",
     "nodenv"
   ],
-  "extends": [
-    "group:nodeJs"
+  "packageRules": [
+    {
+      "commitMessageTopic": "Node.js",
+      "matchDatasources": [
+        "docker",
+        "node-version"
+      ],
+      "matchPackageNames": [
+        "/(?:^|/)node$/"
+      ],
+      "versioning": "node"
+    }
   ]
 }
