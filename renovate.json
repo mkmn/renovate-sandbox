@@ -9,6 +9,7 @@
   ],
   "packageRules": [
     {
+      "groupName": "Node.js",
       "commitMessageTopic": "Node.js",
       "matchDatasources": [
         "docker",
