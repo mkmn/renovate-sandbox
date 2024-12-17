@@ -1,8 +1,6 @@
 {
   "dependencyDashboard": true,
   "enabledManagers": [
-    "dockerfile",
-    "nodenv",
     "custom.regex",
     "circleci"
   ],
