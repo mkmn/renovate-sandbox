@@ -3,7 +3,8 @@
   "enabledManagers": [
     "custom.regex",
     "circleci",
-    "nodenv"
+    "nodenv",
+    "ruby-version"
   ],
   "extends": [
     "customManagers:dockerfileVersions"
