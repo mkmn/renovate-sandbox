@@ -17,6 +17,17 @@
         "docker",
         "node-version"
       ]
+    },
+    {
+      "groupName": "Ruby",
+      "matchDatasources": [
+        "docker",
+        "ruby-version"
+      ],
+      "matchPackageNames": [
+        "/(?:^|/)ruby$/"
+      ],
+      "versioning": "ruby"
     }
   ]
 }
