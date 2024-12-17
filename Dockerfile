@@ -1,1 +1,2 @@
-FROM node:20.12.0-bullseye-slim
+ARG NODE_VERSION=20.12.0
+FROM node:$NODE_VERSION-bullseye-slim
