@@ -2,7 +2,8 @@
   "dependencyDashboard": true,
   "enabledManagers": [
     "custom.regex",
-    "circleci"
+    "circleci",
+    "nodenv"
   ],
   "extends": [
     "customManagers:dockerfileVersions"
@@ -18,8 +19,6 @@
       "matchPackageNames": [
         "/(?:^|/)node$/"
       ],
-      "labels": ["docker", "nodejs"],
-      "versionCompatibility": "^(?<version>[^-]+)(?<compatibility>-.*)?$",
       "versioning": "node"
     }
   ]
