@@ -2,7 +2,8 @@
   "dependencyDashboard": true,
   "enabledManagers": [
     "dockerfile",
-    "nodenv"
+    "nodenv",
+    "custom.regex"
   ],
   "extends": [
     "customManagers:dockerfileVersions"
