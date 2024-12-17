@@ -17,7 +17,8 @@
         "node-version"
       ],
       "matchPackageNames": [
-        "/(?:|^/)node$/"
+        "/(?:|^/)node$/",
+        "cimg/node"
       ],
       "labels": ["docker", "nodejs"],
       "versioning": "node"
