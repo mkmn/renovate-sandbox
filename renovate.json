@@ -19,9 +19,6 @@
       "matchPackageNames": [
         "/(?:|^/)node$/"
       ],
-      "matchDepNames": [
-        "cimg/node"
-      ],
       "labels": ["docker", "nodejs"],
       "versionCompatibility": "^(?<version>[^-]+)(?<compatibility>-.*)?$",
       "versioning": "node"
