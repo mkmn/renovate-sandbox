@@ -7,21 +7,7 @@
     "circleci"
   ],
   "extends": [
-    "customManagers:dockerfileVersions"
-  ],
-  "packageRules": [
-    {
-      "commitMessageTopic": "Node.js",
-      "matchDatasources": [
-        "docker",
-        "node-version"
-      ],
-      "matchPackageNames": [
-        "/(?:|^/)node$/"
-      ],
-      "labels": ["docker", "nodejs"],
-      "versionCompatibility": "^(?<version>[^-]+)(?<compatibility>-.*)?$",
-      "versioning": "node"
-    }
+    "customManagers:dockerfileVersions",
+    "workarounds:nodeDockerVersioning"
   ]
 }
