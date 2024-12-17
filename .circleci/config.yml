@@ -4,7 +4,7 @@ jobs:
   sample:
     docker:
       - image: cimg/node:20.12.0
-      - image: cimg/ruby:3.3.5
+      - image: cimg/ruby:3.3.6
     steps:
       - run: echo "ok"
 
