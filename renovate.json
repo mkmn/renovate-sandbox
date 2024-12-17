@@ -10,17 +10,7 @@
   "packageRules": [
     {
       "groupName": "Node.js",
-      "commitMessageTopic": "Node.js",
-      "matchDatasources": [
-        "docker",
-        "node-version"
-      ],
-      "matchPackageNames": [
-        "/(?:^|/)node$/"
-      ],
-      "labels": ["docker", "nodejs"],
-      "versionCompatibility": "^(?<version>[^-]+)(?<compatibility>-.*)?$",
-      "versioning": "node"
+      "extends": ["workarounds:nodeDockerVersioning"]
     }
   ]
 }
