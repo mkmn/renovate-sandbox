@@ -17,7 +17,7 @@
         "node-version"
       ],
       "matchPackageNames": [
-        "/(?:^|/)node$/"
+        "/(^/)node$/"
       ],
       "versioning": "node"
     }
