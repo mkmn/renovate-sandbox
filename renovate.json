@@ -3,7 +3,8 @@
   "enabledManagers": [
     "dockerfile",
     "nodenv",
-    "custom.regex"
+    "custom.regex",
+    "circleci"
   ],
   "extends": [
     "customManagers:dockerfileVersions"
