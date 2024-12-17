@@ -4,6 +4,9 @@
     "dockerfile",
     "nodenv"
   ],
+  "extends": [
+    "customManagers:dockerfileVersions"
+  ],
   "packageRules": [
     {
       "commitMessageTopic": "Node.js",
