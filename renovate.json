@@ -1,4 +1,10 @@
 {
   "dependencyDashboard": true,
-  "enabledManagers": ["dockerfile"]
+  "enabledManagers": [
+    "dockerfile",
+    "nodenv"
+  ],
+  "extends": [
+    "group:nodeJs"
+  ]
 }
