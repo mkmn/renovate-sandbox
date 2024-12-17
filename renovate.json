@@ -13,7 +13,8 @@
     {
       "commitMessageTopic": "Node.js",
       "matchDatasources": [
-        "docker"
+        "docker",
+        "node-version"
       ],
       "matchPackageNames": [
         "/(?:|^/)node$/"
