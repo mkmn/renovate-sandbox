@@ -12,7 +12,10 @@
   "packageRules": [
     {
       "commitMessageTopic": "Node.js",
-      "matchDepNames": ["node"],
+      "matchDatasources": [
+        "docker",
+        "node-version"
+      ],
       "matchPackageNames": [
         "/(?:^|/)node$/"
       ],
