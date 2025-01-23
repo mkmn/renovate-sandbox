@@ -26,8 +26,7 @@
       ],
       "matchPackageNames": [
         "/(?:^|/)ruby$/"
-      ],
-      "separateMinorPatch": true
+      ]
     }
   ]
 }
