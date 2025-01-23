@@ -19,10 +19,16 @@
       ]
     },
     {
+      "groupName": "Ruby",
       "matchDatasources": [
+        "docker",
         "ruby-version"
       ],
-      "separateMinorPatch": true
+      "matchPackageNames": [
+        "/(?:^|/)ruby$/"
+      ],
+      "separateMinorPatch": true,
+      "versioning": "ruby"
     }
   ]
 }
