@@ -27,8 +27,7 @@
       "matchPackageNames": [
         "/(?:^|/)ruby$/"
       ],
-      "separateMinorPatch": true,
-      "versioning": "ruby"
+      "separateMinorPatch": true
     }
   ]
 }
