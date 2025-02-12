@@ -1,3 +1,3 @@
 # renovate: datasource=node-version depName=node
-ARG NODE_VERSION=20.12.0
+ARG NODE_VERSION=22.14.0
 FROM node:$NODE_VERSION-bullseye-slim
